@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SkyEpubRemote_Example' do
+  pod 'SkyEpubRemote', :path => '../'
+
+  target 'SkyEpubRemote_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
