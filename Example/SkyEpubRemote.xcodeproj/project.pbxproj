@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EF79DA26A5D49AAEE450182 /* Pods-SkyEpubRemote_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyEpubRemote_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SkyEpubRemote_Tests/Pods-SkyEpubRemote_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8978434C152CEB3C9177361D /* Pods_SkyEpubRemote_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyEpubRemote_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF93646C9D61341F177AB4B /* SkyEpubRemote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SkyEpubRemote.podspec; path = ../SkyEpubRemote.podspec; sourceTree = "<group>"; };
+		BAF93646C9D61341F177AB4B /* SkyEpubRemote.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SkyEpubRemote.podspec; path = ../SkyEpubRemote.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C64910883BC0CA98E8D00611 /* Pods_SkyEpubRemote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyEpubRemote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E06FA11DF05ADDBCA387B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F1AF97821A5E1FF76AD4E37D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0E06FA11DF05ADDBCA387B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1AF97821A5E1FF76AD4E37D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				7EF79DA26A5D49AAEE450182 /* Pods-SkyEpubRemote_Tests.debug.xcconfig */,
 				5B7AB2EA7F6010AFCAC943F0 /* Pods-SkyEpubRemote_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
